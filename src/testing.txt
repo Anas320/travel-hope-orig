@@ -1,0 +1,356 @@
+var NewComponent = React.createClass({
+  render: function() {
+    return (
+      <div>
+        <header id="header-waypoint-sticky" classname="header-main header-mobile-menu with-absolute-navbar">
+          <div classname="header-top">
+            <div classname="container">
+              <div classname="row align-items-center ">
+                <div classname="col-4">
+                  <div classname="header-logo">
+                    <a href="index.html"><img src="images/logo-white.png" alt="Logo" /></a>
+                  </div>
+                </div>
+                <div classname="col-8">
+                  <div classname="mini-menu">
+                    <ul>
+                      <li classname="d-block d-md-none">
+                        <div classname="dropdown dropdown-currency">
+                          <a href="#" classname="btn btn-text-inherit btn-interactive" id="dropdownMobileSetting" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i classname="fas fa-cogs">
+                            </i></a><i classname="fas fa-cogs">
+                            <div classname="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMobileSetting">
+                              <div classname="dropdown-menu-inner">
+                                <a classname="dropdown-item active" href="#">USD - Dollar</a>
+                                <a classname="dropdown-item" href="#">GBP - Pound</a>
+                                <a classname="dropdown-item" href="#">EUR - Euro</a>
+                                <a classname="dropdown-item" href="#">JPY - Yen</a>
+                                <div classname="dropdown-divider">
+                                  <a classname="dropdown-item active" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/260-united-kingdom.png" alt="image" /></span> English</a>
+                                  <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/013-italy.png" alt="image" /></span> Italiano</a>
+                                  <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/063-japan.png" alt="image" /></span> 日本語</a>
+                                  <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/162-germany.png" alt="image" /></span> Deutsch</a>
+                                  <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/118-malasya.png" alt="image" /></span> Bahasa Malaysia</a>
+                                  <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/238-thailand.png" alt="image" /></span> ภาษาไทย</a>
+                                </div>
+                              </div>
+                            </div>
+                          </i></div></li><i classname="fas fa-cogs">
+                        <li classname="d-none d-md-block">
+                          <div classname="dropdown dropdown-currency">
+                            <a href="#" classname="btn btn-text-inherit btn-interactive" id="dropdownCurrency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              USD - dollar
+                            </a>
+                            <div classname="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownCurrency">
+                              <div classname="dropdown-menu-inner">
+                                <a classname="dropdown-item active" href="#">USD - Dollar</a>
+                                <a classname="dropdown-item" href="#">GBP - Pound</a>
+                                <a classname="dropdown-item" href="#">EUR - Euro</a>
+                                <a classname="dropdown-item" href="#">JPY - Yen</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li classname="d-none d-md-block">
+                          <div classname="dropdown dropdown-language">
+                            <a href="#" classname="btn btn-text-inherit btn-interactive" id="dropdownLangauge" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span classname="image"><img src="font-icons/img-flaticon-flags-4/png/260-united-kingdom.png" alt="image" /></span> English
+                            </a>
+                            <div classname="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLangauge">
+                              <div classname="dropdown-menu-inner">
+                                <a classname="dropdown-item active" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/260-united-kingdom.png" alt="image" /></span> English</a>
+                                <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/013-italy.png" alt="image" /></span> Italiano</a>
+                                <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/063-japan.png" alt="image" /></span> 日本語</a>
+                                <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/162-germany.png" alt="image" /></span> Deutsch</a>
+                                <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/118-malasya.png" alt="image" /></span> Bahasa Malaysia</a>
+                                <a classname="dropdown-item" href="#"><span classname="image"><img src="font-icons/img-flaticon-flags-4/png/238-thailand.png" alt="image" /></span> ภาษาไทย</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div classname="dropdown dropdown-login dropdown-tab">
+                            <a href="#" classname="btn btn-text-inherit btn-interactive" id="dropdownSignIn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Login / Register
+                            </a>
+                            <div classname="dropdown-menu dropdown-menu-right tab-in-dropdown padding-0" aria-labelledby="dropdownSignIn">
+                              <nav classname="menu-horizontal-01">
+                                <ul classname="nav external-link-navs">
+                                  <li><a classname="active" data-toggle="tab" href="#loginTabInDropdown01-01s">Login</a></li>
+                                  <li><a data-toggle="tab" href="#loginTabInDropdown01-02s">Register </a></li>
+                                  <li classname="d-none"><a data-toggle="tab" href="#loginTabInDropdown01-03s">Forgot Password </a></li>
+                                </ul>
+                              </nav>
+                              <div classname="tab-content">
+                                <div role="tabpanel" classname="tab-pane active padding-0" id="loginTabInDropdown01-01s">
+                                  <div classname="form-login">
+                                    <form>
+                                      <div classname="form-inner">
+                                        <div classname="login-with-socials">
+                                          <button classname="btn btn-facebook btn-block">Login with Facebook</button>
+                                          <button classname="btn btn-google btn-block">Login with Google</button>
+                                          <button classname="btn btn-twitter btn-block">Login with Twitter</button>
+                                          <button classname="btn btn-pinterest btn-block">Login with Pinterest</button>
+                                        </div>
+                                        <div classname="text-seperator">
+                                          <span>or</span>
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_username" classname="form-control" placeholder="Email address / phone number" type="text" />
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_password" classname="form-control" placeholder="Password" type="password" />
+                                        </div>
+                                        <div classname="row gap-5 mt-5">
+                                          <div classname="col-12 col-sm-6">
+                                            <div classname="custom-control custom-checkbox style-01 mt-5">
+                                              <input type="checkbox" classname="custom-control-input" id="loginForm-02-checkbox-in-tab" />
+                                              <label classname="custom-control-label line-145 pt-5" htmlfor="loginForm-02-checkbox-in-tab">Remember me</label>
+                                            </div>
+                                          </div>
+                                          <div classname="col-12 col-sm-6 text-right">
+                                            <div classname="nav text-right d-inline-block">
+                                              <a href="#loginTabInDropdown01-03s" classname="btn btn-link tab-external-link">Forgot pass?</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div classname="mt-5">
+                                          <button type="submit" classname="btn btn-primary btn-block">Login</button>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                                <div role="tabpanel" classname="tab-pane fade in padding-0" id="loginTabInDropdown01-02s">
+                                  <div classname="form-login">
+                                    <form>
+                                      <div classname="form-inner">
+                                        <div classname="login-with-socials">
+                                          <button classname="btn btn-facebook btn-block">Register with Facebook</button>
+                                          <button classname="btn btn-google btn-block">Register with Google</button>
+                                          <button classname="btn btn-twitter btn-block">Register with Twitter</button>
+                                          <button classname="btn btn-pinterest btn-block">Register with Pinterest</button>
+                                        </div>
+                                        <div classname="text-seperator">
+                                          <span>or</span>
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_username" classname="form-control" placeholder="Full name" type="text" />
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_username" classname="form-control" placeholder="Email address / phone number" type="text" />
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_password" classname="form-control" placeholder="Password" type="password" />
+                                        </div>
+                                        <div classname="form-group">
+                                          <input id="login_password" classname="form-control" placeholder="Confirm password" type="password" />
+                                        </div>
+                                        <div classname="custom-control custom-checkbox style-01 mt-10">
+                                          <input type="checkbox" classname="custom-control-input" id="loginForm-02-01-checkbox-in-tab" />
+                                          <label classname="custom-control-label line-145 pt-5" htmlfor="loginForm-02-01-checkbox-in-tab">By checking here, you are agree with our <a href="#">terms &amp; rules</a>.</label>
+                                        </div>
+                                        <div classname="mt-10">
+                                          <button type="submit" classname="btn btn-primary btn-block">Register</button>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                                <div role="tabpanel" classname="tab-pane fade in padding-0" id="loginTabInDropdown01-03s">
+                                  <div classname="form-login">
+                                    <form>
+                                      <div classname="form-inner">
+                                        <h5>Forget your password?</h5>
+                                        <p classname="line-145">Don't worry, Resetting your password is easy, just tell us your email adress your registred with us</p>
+                                        <div classname="form-group">
+                                          <input id="login_username" classname="form-control" placeholder="Email address" type="email" />
+                                        </div>
+                                        <div classname="mt-10">
+                                          <button type="submit" classname="btn btn-primary btn-block">Send</button>
+                                        </div>
+                                        <div classname="mt-15">
+                                          Back to
+                                          <div classname="nav d-inline-block">
+                                            <a href="#loginTabInDropdown01-01s" classname="tab-external-link">Login</a>
+                                          </div>
+                                          or
+                                          <div classname="nav d-inline-block">
+                                            <a href="#loginTabInDropdown01-02s" classname="tab-external-link">Register</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li classname="d-lg-none">
+                          <button classname="btn btn-toggle collapsed" data-toggle="collapse" data-target="#mobileMenuMain">
+                          </button></li>
+                      </i></ul><i classname="fas fa-cogs">
+                    </i></div><i classname="fas fa-cogs">
+                  </i></div><i classname="fas fa-cogs">
+                </i></div><i classname="fas fa-cogs">
+              </i></div><i classname="fas fa-cogs">
+            </i></div><i classname="fas fa-cogs">
+            <div classname="header-nav">
+              <div classname="container">
+                <div classname="navbar-wrapper">
+                  <div classname="navbar navbar-expand-lg">
+                    <div id="mobileMenuMain" classname="collapse navbar-collapse">
+                      <nav classname="main-nav-menu main-menu-nav navbar-arrow">
+                        <ul classname="main-nav">
+                          <li><a href="index.html">Home</a>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Layout options</a>
+                                <ul>
+                                  <li><a href="index-layout-02.html">Layout options 02</a></li>
+                                  <li><a href="index-layout-03.html">Layout options 03</a></li>
+                                  <li><a href="index-layout-04.html">Layout options 04</a></li>
+                                  <li><a href="index-layout-05.html">Layout options 05</a></li>
+                                  <li><a href="index-layout-06.html">Layout options 06</a></li>
+                                  <li><a href="index-layout-07.html">Layout options 07</a></li>
+                                  <li><a href="index-layout-08.html">Layout options 08</a></li>
+                                  <li><a href="index-layout-09.html">Layout options 09</a></li>
+                                  <li><a href="index-layout-10.html">Layout options 10</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Header options</a>
+                                <ul>
+                                  <li><a href="index-header-02.html">Header options 02</a></li>
+                                  <li><a href="index-header-03.html">Header options 03</a></li>
+                                  <li><a href="index-header-04.html">Header options 04</a></li>
+                                  <li><a href="index-header-05.html">Header options 05</a></li>
+                                  <li><a href="index-header-06.html">Header options 06</a></li>
+                                  <li><a href="index-header-07.html">Header options 07</a></li>
+                                  <li><a href="index-header-08.html">Header options 08</a></li>
+                                  <li><a href="index-header-09.html">Header options 09</a></li>
+                                  <li><a href="index-header-10.html">Header options 10</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Booking</a>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Hotel</a>
+                                <ul>
+                                  <li><a href="page-result-hotel-grid-col-three.html">Hotel result - grid 3 columns</a></li>
+                                  <li><a href="page-result-hotel-grid-col-two.html">Hotel result - grid 2 columns</a></li>
+                                  <li><a href="page-result-hotel-list-01.html">Hotel result - list 01</a></li>
+                                  <li><a href="page-result-hotel-list-02.html">Hotel result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Flight</a>
+                                <ul>
+                                  <li><a href="page-result-flight-grid-col-three.html">Flight result - grid 3 columns</a></li>
+                                  <li><a href="page-result-flight-grid-col-two.html">Flight result - grid 2 columns</a></li>
+                                  <li><a href="page-result-flight-list-01.html">Flight result - list 01</a></li>
+                                  <li><a href="page-result-flight-list-02.html">Flight result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Tour</a>
+                                <ul>
+                                  <li><a href="page-result-tour-grid-col-three.html">Tour result - grid 3 columns</a></li>
+                                  <li><a href="page-result-tour-grid-col-two.html">Tour result - grid 2 columns</a></li>
+                                  <li><a href="page-result-tour-list-01.html">Tour result - list 01</a></li>
+                                  <li><a href="page-result-tour-list-02.html">Tour result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Car rent</a>
+                                <ul>
+                                  <li><a href="page-result-car-rent-grid-col-three.html">Car rent result - grid 3 columns</a></li>
+                                  <li><a href="page-result-car-rent-grid-col-two.html">Car rent result - grid 2 columns</a></li>
+                                  <li><a href="page-result-car-rent-list-01.html">Car rent result - list 01</a></li>
+                                  <li><a href="page-result-car-rent-list-02.html">Car rent result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Train</a>
+                                <ul>
+                                  <li><a href="page-result-train-grid-col-three.html">Train result - grid 3 columns</a></li>
+                                  <li><a href="page-result-train-grid-col-two.html">Train result - grid 2 columns</a></li>
+                                  <li><a href="page-result-train-list-01.html">Train result - list 01</a></li>
+                                  <li><a href="page-result-train-list-02.html">Train result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Guide</a>
+                                <ul>
+                                  <li><a href="page-result-guide-grid-col-three.html">Guide result - grid 3 columns</a></li>
+                                  <li><a href="page-result-guide-grid-col-two.html">Guide result - grid 2 columns</a></li>
+                                  <li><a href="page-result-guide-list-01.html">Guide result - list 01</a></li>
+                                  <li><a href="page-result-guide-list-02.html">Guide result - list 02</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="page-detail.html">Detail page</a></li>
+                              <li><a href="page-detail-empty-booking.html">Detail page - Empty booking</a></li>
+                              <li><a href="page-payment.html">Payment page</a></li>
+                              <li><a href="page-confirmation.html">Confirm page</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="javascript:void(0)">Destination</a>
+                            <ul>
+                              <li><a href="page-destinations-01.html">Destinations page 01</a></li>
+                              <li><a href="page-destinations-02.html">Destinations page 02</a></li>
+                              <li><a href="page-destinations-detail-01.html">Destinations detail page 01</a></li>
+                              <li><a href="page-destinations-detail-02.html">Destinations detail page 02</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="javascript:void(0)">Blog</a>
+                            <ul>
+                              <li><a href="blog-01.html">Blog grid - full width</a></li>
+                              <li><a href="blog-02.html">Blog grid - with sidebar</a></li>
+                              <li><a href="blog-03.html">Blog horizontal - with sidebar</a></li>
+                              <li><a href="blog-single-01.html">Blog detail - full width</a></li>
+                              <li><a href="blog-single-02.html">Blog detail - with sidebar</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="javascript:void(0)">Pages</a>
+                            <ul>
+                              <li><a href="page-about.html">About us</a></li>
+                              <li><a href="page-faq.html">FAQ</a></li>
+                              <li><a href="page-static-page.html">Static page</a></li>
+                              <li><a href="page-error-404.html">Error 404 page</a></li>
+                              <li>
+                                <a href="dashboard.html">Dashboard</a>
+                                <ul>
+                                  <li><a href="dashboard-edit-profile.html">Dashboard - edit profile</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Shortcode</a>
+                                <ul>
+                                  <li><a href="shortcode-typography.html">Typography</a></li>
+                                  <li><a href="shortcode-element.html">Element</a></li>
+                                  <li><a href="shortcode-layout-fullwidth.html">Layout Fullwidth</a></li>
+                                  <li><a href="shortcode-layout-left-sidebar.html">Layout Left Sidebar</a></li>
+                                  <li><a href="shortcode-layout-right-sidebar.html">Layout Right Sidebar</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                      </nav>{'{'}/*/.nav-collapse */{'}'}
+                    </div>
+                    <div classname="navbar-phone d-none d-lg-block">
+                      <i classname="material-icons">phone</i> Hotline: +66 74 665 855
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </i></header><i classname="fas fa-cogs">
+        </i></div>
+    );
+  }
+});

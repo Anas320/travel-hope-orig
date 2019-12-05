@@ -1,0 +1,68 @@
+import * as React from 'React'
+class Footer extends React.Component {
+    render() {
+        return (
+            <footer className="footer-wrapper scrollspy-stopper">
+                <div className="container">
+                    <div className="row gap-40 gap-md-50">
+                        <div className="col-12 col-lg-6">
+                            <div className="col-inner">
+                                <h4 className="footer-title">About us</h4>
+                                <p className="font-lg line-145">Throwing consider dwelling bachelor joy her proposal laughter. Raptures returned disposed one entirely... <a href="#">read more</a></p>
+                                <p className="footer-address mt-20">11/87, Santisuk Road, T. Sabarang, <br />A.Muang,Pattani 94000 <br /></p>
+                                <span className="d-block footer-phone text-white"><i className="material-icons">phone</i> +66 74 665 855</span>
+                                <a href="#">support@website.com</a>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <div className="col-inner">
+                                <div className="row gap-40 gap-md-20">
+                                    <div className="col-12 col-md-5">
+                                        <div className="col-inner mt-15-sm">
+                                            <h5 className="footer-title">Quick Menu</h5>
+                                            <ul className="footer-menu">
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Terms</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">FAQ</a></li>
+                                                <li><a href="#">Press</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-7">
+                                        <div className="col-inner mt-25-sm">
+                                            <h5 className="footer-title">Newsletter</h5>
+                                            <p>Subsribe to get our latest updates and oeffers</p>
+                                            <form className="footer-newsletter">
+                                                <div className="input-group">
+                                                    <input type="email" className="form-control" placeholder="Email address" />
+                                                    <div className="input-group-append">
+                                                        <button className="btn btn-secondary" type="button">Subsribe</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <h5 className="footer-title">Socials</h5>
+                                            <div className="footer-socials">
+                                                <a href="#"><i className="fab fa-facebook" /></a>
+                                                <a href="#"><i className="fab fa-twitter" /></a>
+                                                <a href="#"><i className="fab fa-google-plus " /></a>
+                                                <a href="#"><i className="fab fa-codepen" /></a>
+                                                <a href="#"><i className="fab fa-behance" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="post-footer">
+                    <div className="container">
+                        <p className="footer-copy-right">© 2019 - MyCompany Ltd., All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>)
+    }
+}
+export default Footer;
